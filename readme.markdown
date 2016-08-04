@@ -1,3 +1,11 @@
+# nor-minimist
+
+This library is a fork from [substack's 
+minimist](https://github.com/substack/minimist) with a small change in boolean 
+parsing. With this module, you can set default values for booleans as 
+`undefined`; which probably is a breaking change, which is why I did not submit 
+it as a pull request to the original library.
+
 # minimist
 
 parse argument options

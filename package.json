@@ -1,7 +1,7 @@
 {
-  "name": "minimist",
+  "name": "nor-minimist",
   "version": "1.2.0",
-  "description": "parse argument options",
+  "description": "parse argument options (slightly differently from original)",
   "main": "index.js",
   "devDependencies": {
     "covert": "^1.0.0",
@@ -27,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/minimist.git"
+    "url": "git://github.com/sendanor/nor-minimist.git"
   },
-  "homepage": "https://github.com/substack/minimist",
+  "homepage": "https://github.com/sendanor/nor-minimist",
   "keywords": [
     "argv",
     "getopt",
@@ -41,5 +41,8 @@
     "email": "mail@substack.net",
     "url": "http://substack.net"
   },
+  "contributors": [
+    "Jaakko-Heikki Heusala <jheusala@iki.fi>"
+  ],
   "license": "MIT"
 }
