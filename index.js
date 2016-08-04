@@ -36,7 +36,9 @@ module.exports = function (args, opts) {
     
     var argv = { _ : [] };
     Object.keys(flags.bools).forEach(function (key) {
-        setArg(key, defaults.hasOwnProperty(key) ? defaults[key] : false);
+        if(defaults.hasOwnProperty(key)) {
+            setArg(key, defaults[key]);
+        }
     });
     
     var notFlags = [];
